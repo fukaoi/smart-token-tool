@@ -5,7 +5,7 @@ import { Paper, Box } from '@mui/material';
 import SubmitButton from '../components/button/SubmitButton';
 import InfoModal from '../components/modal/InfoModal';
 import { useState } from 'react';
-import { Airdrop } from '@solana-suite/core';
+import { Airdrop } from '@solana-suite/airdrop';
 import ErrorModal from '../components/modal/ErrorModal';
 import { useSessionCheck } from '../hooks/SessionCheck';
 

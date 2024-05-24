@@ -1,5 +1,5 @@
 import { PhantomSplToken } from '@solana-suite/phantom';
-import { ValidatorError } from '@solana-suite/shared-metaplex';
+import { ValidatorError } from '@solana-suite/utils';
 
 export const mintToken = async (
   filePath: ArrayBuffer,
